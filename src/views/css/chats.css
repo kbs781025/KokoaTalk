@@ -1,0 +1,39 @@
+.chats__lists .chats__chatroom {
+  padding: 15px;
+}
+
+.chats__lists .chats__chatroom a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chats__chatroom .chat__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chats_chatroom .chat__contents {
+  display: flex;
+}
+
+.chat__contents .chat__user {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chats__chatroom .chat__date__time {
+  font-size: 15px;
+  color: #b4b4b4;
+}
+
+.chat__contents i {
+  margin-right: 25px;
+  font-size: 23px;
+}
+
+.chat__preview .chat__lastChat {
+  color: #b4b4b4;
+  font-size: 13px;
+}
