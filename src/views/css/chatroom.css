@@ -1,3 +1,7 @@
+.top-header .header__bottom .chatter__name {
+  text-align: center;
+}
+
 .chatroom {
   background-color: #a1c0d6;
   height: 100vh;
