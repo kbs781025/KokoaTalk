@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <title>Chats</title>
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="header__top">
+        <div class="header__column">
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-signal"></i>
+        </div>
+        <div class="header__column">
+          <span class="header__time">Current Time</span>
+        </div>
+        <div class="header__column">
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__text">Friends</span>
+        </div>
+        <div class="header__column">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-comment"></i>
+          <i class="fas fa-cog"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="chats">
+      <ul class="chats__lists">
+        <li class="chats__chatrom">
+          <a href="chat.html">
+            <div class="chat__contents">
+              <i class="fas fa-user"></i>
+              <div class="chat__preview">
+                <h3 class="chat__user">Mom</h3>
+                <span class="chat__lastChat">Last chat</span>
+              </div>
+              <span class="chat__date__time">Today</span>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chatrom">
+          <a href="chat.html">
+            <div class="chat__contents">
+              <i class="fas fa-user"></i>
+              <div class="chat__preview">
+                <h3 class="chat__user">JiYoung</h3>
+                <span class="chat__lastChat">Last chat</span>
+              </div>
+              <span class="chat__date__time">Today</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="tab-bar">
+      <a class="tab-bar__tab tab-bar__tab__selected" href="index.html">
+        <i class="fas fa-user"></i>
+      </a>
+      <a class="tab-bar__tab tab-bar__tab__selected" href="chats.html">
+        <i class="fas fa-comment-dots"></i>
+      </a>
+      <a class="tab-bar__tab tab-bar__tab__selected" href="more.html">
+        <i class="fas fa-ellipsis-h"></i>
+      </a>
+    </nav>
+  </body>
+</html>
