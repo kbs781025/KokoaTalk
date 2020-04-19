@@ -1,0 +1,75 @@
+.chatroom {
+  background-color: #a1c0d6;
+  height: 100vh;
+  padding: 15px 5px 0px 5px;
+}
+
+.chatroom .date__divider {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.chatroom .chat__message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.chat__message .chat__message-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.chat__message-to-me i {
+  font-size: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat__message-block .chat__message-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  background: white;
+  width: max-content;
+  height: max-content;
+}
+
+.chat__message-from-me {
+  float: right;
+}
+
+.chat__messgae-to-me .chat__message-time {
+}
+
+.chat__message .chat__message-time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat__message-from-me .chat__message-text {
+  background-color: yellow;
+}
+
+.chat__box {
+  font-size: 20px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.chat__input .chat__input__box {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
