@@ -1,0 +1,59 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 60vh;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/60/b0/a7/60b0a7ef623bc2487385bace5d68fc8c--material-wallpapers-android-fantastic-wallpapers.jpg");
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  top: -66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container {
+  text-align: center;
+  position: relative;
+  bottom: -80px;
+}
+
+.profile__header-container i {
+  font-size: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile__actions {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__actions .profile__action {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.profile__action a {
+  text-decoration: none;
+}
+
+.profile__action .profile__action-circle {
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+}
+
+.profile__action .profile__action-title {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}

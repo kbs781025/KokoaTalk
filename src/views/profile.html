@@ -11,7 +11,7 @@
     <title>Profile</title>
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-wifi"></i>
@@ -28,6 +28,7 @@
         <div class="header__column">
           <i class="fas fa-arrow-left"></i>
         </div>
+        <div class="header__column"></div>
       </div>
     </header>
     <main class="profile">
@@ -38,12 +39,24 @@
           <h4 class="profile__header-description">My profile is...</h4>
         </div>
       </header>
-      <nav class="profile__tab__bar">
-        <a class="profile__tab__bar__tab" href="chatroom.html">
-          <i class="fas fa-comment-dots"></i>
-        </a>
-        <i class="fas fa-phone"></i>
-      </nav>
+      <div class="profile__actions">
+        <div class="profile__action">
+          <a class="profile__tab__bar__tab" href="chatroom.html">
+            <span class="profile__action-circle">
+              <i class="fas fa-comment-dots"></i>
+            </span>
+          </a>
+          <span class="profile__action-title">My Chatroom</span>
+        </div>
+        <div class="profile__action">
+          <a class="profile__tab__bar__tab" href="chatroom.html">
+            <span class="profile__action-circle">
+              <i class="fas fa-pen"></i>
+            </span>
+          </a>
+          <span class="profile__action-title">Edit Profile</span>
+        </div>
+      </div>
     </main>
   </body>
 </html>
