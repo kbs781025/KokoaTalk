@@ -47,9 +47,6 @@
   float: right;
 }
 
-.chat__messgae-to-me .chat__message-time {
-}
-
 .chat__message .chat__message-time {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.5);
